@@ -5,7 +5,7 @@ if (!isset($_SESSION['email'])) {
     header("Location: login.php"); // blocco accessi diretti
     exit;
 }
-//no
+
 $email = $_SESSION['email'];
 
 require("pdoConnection.php");
